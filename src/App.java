@@ -16,8 +16,9 @@ public class App {
        bmw.marca = "BMW";
        bmw.modelo = "140i";
        
-       Coche Toyota = new Coche("Rojo", 2000, "Toyota", "Corolla");
-      
+       Coche Toyota = new Coche("Rojo", 2000, "Toyota", "Corolla", 150000);
+      Coche Mercedes = new Coche(2000, "Mercedes", "Clase E", 250000);
+
 
     
 
