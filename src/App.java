@@ -20,7 +20,7 @@ public class App {
       Coche Mercedes = new Coche(2000, "Mercedes", "Clase E", 250000);
 
 
-    
+    profesor pablo = new profesor();
 
     }
 }
