@@ -15,6 +15,9 @@ public class App {
        bmw.anyo = 2025;
        bmw.marca = "BMW";
        bmw.modelo = "140i";
+       System.out.println("El año de bmw es: " + bmw.anyo );
+       bmw.anyo = 2015;
+       System.out.println("El año de bmw es: " + bmw.anyo );
        
        Coche Toyota = new Coche("Rojo", 2000, "Toyota", "Corolla", 150000);
       Coche Mercedes = new Coche(2000, "Mercedes", "Clase E", 250000);
