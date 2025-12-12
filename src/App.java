@@ -23,7 +23,8 @@ public class App {
       Coche Mercedes = new Coche(2000, "Mercedes", "Clase E", 250000);
 
 
-    profesor pablo = new profesor();
+    profesor pablo = new profesor("12121212r","Pablo Gonz", 1500);
+    asignatura sist = new asignatura("Sistemas informaticos" );
 
     }
 }
