@@ -25,7 +25,9 @@ public class App {
 
 
     Profesor pablo = new Profesor("12121212r","Pablo Gonz", 1500);
+
     Asignatura sist = new Asignatura("Sistemas informaticos", pablo); 
+    System.out.println(" El salario del profe de sistemas es: " + sist.docente.salario);// entra al objeto sist,  de este objeto dame el docente y del docente que es pablo, dame el salario
 
     }
 }
