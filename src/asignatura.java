@@ -1,7 +1,10 @@
-public class asignatura {
+public class Asignatura {
     public String nombre;
-    public asignatura(String asignatura){
+    public Profesor docente;
+
+    public Asignatura(String asignatura, Profesor profe){
         nombre = asignatura;
+        docente = profe;
 
     }
     

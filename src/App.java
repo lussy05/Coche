@@ -20,11 +20,12 @@ public class App {
        System.out.println("El año de bmw es: " + bmw.anyo );
        
        Coche Toyota = new Coche("Rojo", 2000, "Toyota", "Corolla", 150000);
+
       Coche Mercedes = new Coche(2000, "Mercedes", "Clase E", 250000);
 
 
-    profesor pablo = new profesor("12121212r","Pablo Gonz", 1500);
-    asignatura sist = new asignatura("Sistemas informaticos" );
+    Profesor pablo = new Profesor("12121212r","Pablo Gonz", 1500);
+    Asignatura sist = new Asignatura("Sistemas informaticos", pablo); 
 
     }
 }

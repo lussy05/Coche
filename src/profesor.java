@@ -1,4 +1,4 @@
-public class profesor {
+public class Profesor {
     // si aqui no pones contructor
     // esto que hemos puesto funcionaria ; // profesor pablo = new profesor();
 
@@ -9,7 +9,7 @@ public class profesor {
     public double salario;
 
 //como se crea el constructor, entre parentesis el orden e informacion
-    public profesor(String dniprofesor, String nombreprofesor, double salarioprofesor) {
+    public Profesor(String dniprofesor, String nombreprofesor, double salarioprofesor) {
         dni = dniprofesor;
         nombre = nombreprofesor;
         salario = salarioprofesor;
