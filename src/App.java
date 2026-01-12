@@ -29,5 +29,12 @@ public class App {
     Asignatura sist = new Asignatura("Sistemas informaticos", pablo); 
     System.out.println(" El salario del profe de sistemas es: " + sist.docente.salario);// entra al objeto sist,  de este objeto dame el docente y del docente que es pablo, dame el salario
 
+
+    CuentaBancaria cuenta1 = new CuentaBancaria();
+    System.out.println(" Saldo de la cuenta 1 es : " + cuenta1.balance);
+
+    CuentaBancaria cuenta2 = new CuentaBancaria( 2500);
+    System.out.println(" Saldo de la cuenta 2 es: " + cuenta2.balance);
+
     }
 }
