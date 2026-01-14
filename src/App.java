@@ -36,5 +36,12 @@ public class App {
     CuentaBancaria cuenta2 = new CuentaBancaria( 2500);
     System.out.println(" Saldo de la cuenta 2 es: " + cuenta2.balance);
 
+    //EJERCICIOS METODOS
+    //construir el objeto: 
+    Calculadora calc = new Calculadora();
+    //calc.restar(80, 7);
+    int resultado = calc.restar(80, 7);
+    System.out.println(resultado);
+
     }
 }
