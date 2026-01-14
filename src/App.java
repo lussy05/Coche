@@ -48,5 +48,13 @@ public class App {
     int resultado2 = calc.elevarCuadrado(5);
     System.out.println("El resultado de elevar al cuadrado es " + resultado2);
 
+    double res3 = calc.volumenEsfera(5);
+    System.out.println( res3);
+    
     }
-}
+
+
+
+
+    }
+    
