@@ -42,6 +42,7 @@ public class App {
     //calc.restar(80, 7);
     int resultado = calc.restar(80, 7);
     System.out.println(resultado);
+    calc.bienvenida("cuau");
 
     }
 }
