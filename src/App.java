@@ -44,5 +44,9 @@ public class App {
     System.out.println(resultado);
     calc.bienvenida("cuau");
 
+    //ejercicio 3
+    int resultado2 = calc.elevarCuadrado(5);
+    System.out.println("El resultado de elevar al cuadrado es " + resultado2);
+
     }
 }

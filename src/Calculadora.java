@@ -9,4 +9,8 @@ public void bienvenida (String usuario){
     System.out.println("Hola " + usuario);
 
 }
+public int elevarCuadrado (int e1){
+    return e1 * e1;
+    
+}
 }
