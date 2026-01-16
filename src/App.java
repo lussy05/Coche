@@ -59,8 +59,12 @@ public class App {
    boolean resultado4 = bomb.estaEncendida(true);
     System.out.println("La bombilla esta encendida? : " + resultado4);
 
-    resultado4 = bomb.interruptor(true);
+    resultado4 = bomb.estaEncendida(false);
     System.out.println(" se ha pulsado el interruptor: " + resultado4);
+
+
+    Perro perro1 = new Perro("yorksie", "guau");
+    System.out.println("El perro1 hace: " + perro1.sonido);
   }
 
 
