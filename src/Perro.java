@@ -10,8 +10,8 @@ public class Perro {
     }
 
     // metodo
-    public void ladrar (){
-        System.out.println(sonido);
+    public void ladrar() {
+        System.out.println(sonido + " " + sonido);
     }
 
 }

@@ -63,8 +63,16 @@ public class App {
     System.out.println(" se ha pulsado el interruptor: " + resultado4);
 
 
-    Perro perro1 = new Perro("yorksie", "guau");
+    Perro perro1 = new Perro("yorksie", "guau"); 
+    Perro perro2 = new Perro("American Bully xxl ", "MIAU");
     System.out.println("El perro1 hace: " + perro1.sonido);
+    
+    perro2.ladrar();
+    perro2.sonido = "GUAUUUUUUUUUUUUUUUUUUUUUU";
+    perro2.ladrar();
+
+    
+
   }
 
 
