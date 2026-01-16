@@ -70,6 +70,8 @@ public class App {
     perro2.ladrar();
     perro2.sonido = "GUAUUUUUUUUUUUUUUUUUUUUUU";
     perro2.ladrar();
+     //Profesor pablo = new Profesor("12121212r","Pablo Gonz", 1500);
+     System.out.println(pablo);
 
     
 

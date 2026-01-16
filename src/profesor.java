@@ -13,5 +13,8 @@ public class Profesor {
         nombre = nombreprofesor;
         salario = salarioprofesor;
     }
+    public String toString() {
+        String mensajeImporimir = " El profesor "
+    }
 
 }

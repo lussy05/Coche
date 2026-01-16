@@ -1,6 +1,13 @@
 import java.util.ArrayList;
 
 public class Calculadora {
+    /**
+     * resta 2 numeros enteros
+     * @param n1 el primer numero
+     * @param n2 segundo numero
+     * @return el resultado de la resta de n1 y n2
+     */
+
     //EJERCICO 2; RESTAR 2 VALORES 
     //metodos:
 public int restar (int n1, int n2) {
