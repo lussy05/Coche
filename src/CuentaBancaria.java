@@ -5,7 +5,8 @@ public class CuentaBancaria {
         balance = 500;
     }
 
-    public CuentaBancaria (double saldoInicial){
+    public CuentaBancaria (double saldoInicial ){
+        // (double saldoInicial ) = parametro "cuando vas a la ventanilla"
         balance = saldoInicial;
     }
     //public boolean ingresarDinero (){

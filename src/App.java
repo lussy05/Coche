@@ -36,5 +36,47 @@ public class App {
     CuentaBancaria cuenta2 = new CuentaBancaria( 2500);
     System.out.println(" Saldo de la cuenta 2 es: " + cuenta2.balance);
 
+    //EJERCICIOS METODOS
+    //construir el objeto: 
+    Calculadora calc = new Calculadora();
+    //calc.restar(80, 7);
+    int resultado = calc.restar(80, 7);
+    System.out.println(resultado);
+    calc.bienvenida("cuau");
+
+    //ejercicio 3
+    int resultado2 = calc.elevarCuadrado(5);
+    System.out.println("El resultado de elevar al cuadrado es " + resultado2);
+
+    double res3 = calc.volumenEsfera(5);
+    System.out.println( res3);
+
+    
+    Bombilla bomb = new Bombilla("Led", 200, false);
+    Bombilla bomb1 = new Bombilla("Led", 200, true);
+
+
+   boolean resultado4 = bomb.estaEncendida(true);
+    System.out.println("La bombilla esta encendida? : " + resultado4);
+
+    resultado4 = bomb.estaEncendida(false);
+    System.out.println(" se ha pulsado el interruptor: " + resultado4);
+
+
+    Perro perro1 = new Perro("yorksie", "guau"); 
+    Perro perro2 = new Perro("American Bully xxl ", "MIAU");
+    System.out.println("El perro1 hace: " + perro1.sonido);
+    
+    perro2.ladrar();
+    perro2.sonido = "GUAUUUUUUUUUUUUUUUUUUUUUU";
+    perro2.ladrar();
+     //Profesor pablo = new Profesor("12121212r","Pablo Gonz", 1500);
+     System.out.println(pablo);
+
+    
+
+  }
+
+
     }
-}
+    
