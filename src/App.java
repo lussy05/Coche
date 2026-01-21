@@ -31,10 +31,11 @@ public class App {
 
 
     CuentaBancaria cuenta1 = new CuentaBancaria();
-    System.out.println(" Saldo de la cuenta 1 es : " + cuenta1.balance);
+    System.out.println(" Saldo de la cuenta 1 es : " + cuenta1.getBalance());
+    // el () es metodo 
 
     CuentaBancaria cuenta2 = new CuentaBancaria( 2500);
-    System.out.println(" Saldo de la cuenta 2 es: " + cuenta2.balance);
+    System.out.println(" Saldo de la cuenta 2 es: " + cuenta2.getBalance());
 
     //EJERCICIOS METODOS
     //construir el objeto: 
